@@ -1,0 +1,29 @@
+I, [2017-01-23T12:40:02.447857 #5577]  INFO -- Kitchen: -----> Starting Kitchen (v1.5.0)
+E, [2017-01-23T12:40:02.448276 #5577] ERROR -- Kitchen: ------Exception-------
+E, [2017-01-23T12:40:02.448318 #5577] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2017-01-23T12:40:02.448339 #5577] ERROR -- Kitchen: Message: Kitchen YAML file /home/gituser/chef-repo/cookbooks/customers-list/recipes/.kitchen.yml does not exist.
+E, [2017-01-23T12:40:02.448355 #5577] ERROR -- Kitchen: ------Backtrace-------
+E, [2017-01-23T12:40:02.448370 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2017-01-23T12:40:02.448386 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:149:in `data'
+E, [2017-01-23T12:40:02.448401 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:128:in `suites'
+E, [2017-01-23T12:40:02.448415 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:179:in `filter_instances'
+E, [2017-01-23T12:40:02.448430 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:138:in `build_instances'
+E, [2017-01-23T12:40:02.448444 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/config.rb:114:in `instances'
+E, [2017-01-23T12:40:02.448459 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:115:in `filtered_instances'
+E, [2017-01-23T12:40:02.448475 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command.rb:145:in `parse_subcommand'
+E, [2017-01-23T12:40:02.448491 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/action.rb:38:in `block in call'
+E, [2017-01-23T12:40:02.448505 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2017-01-23T12:40:02.448519 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/command/action.rb:37:in `call'
+E, [2017-01-23T12:40:02.448534 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:56:in `perform'
+E, [2017-01-23T12:40:02.448548 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:180:in `block (2 levels) in <class:CLI>'
+E, [2017-01-23T12:40:02.448579 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2017-01-23T12:40:02.448595 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2017-01-23T12:40:02.448638 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/cli.rb:321:in `invoke_task'
+E, [2017-01-23T12:40:02.448655 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2017-01-23T12:40:02.448670 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2017-01-23T12:40:02.448684 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2017-01-23T12:40:02.448699 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/lib/kitchen/errors.rb:154:in `with_friendly_errors'
+E, [2017-01-23T12:40:02.448713 #5577] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/test-kitchen-1.5.0/bin/kitchen:13:in `<top (required)>'
+E, [2017-01-23T12:40:02.448729 #5577] ERROR -- Kitchen: /usr/bin/kitchen:17:in `load'
+E, [2017-01-23T12:40:02.448743 #5577] ERROR -- Kitchen: /usr/bin/kitchen:17:in `<main>'
+E, [2017-01-23T12:40:02.448758 #5577] ERROR -- Kitchen: ----------------------
